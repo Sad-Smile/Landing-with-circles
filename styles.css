@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&subset=cyrillic');
+
+
+header {
+    background-image: url(bkg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 220px;
+    padding-top: 150px;
+}
+
+header {
+    text-align: center;
+    color: white;
+
+
+}
+
+h1 {
+    margin: 0px;
+
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    display: inline-block;
+    font-family: Tahoma, sans-serif;
+    font-size: 4em;
+
+    text-decoration-color: white;
+}
+
+header p {
+    font-family: 'Poiret One', cursive;
+    font-variant: small-caps;
+    letter-spacing: 0.35em;
+}
+
+
+
+
+
+
+.art-l {
+    margin-left: 50px;
+}
+
+.art-r {
+    margin-right: 50px;
+}
+
+
+
+article {
+
+    text-align: center;
+    padding: 70px;
+    overflow: hidden;
+    width: 180px;
+    height: 180px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    margin: 1em auto;
+    font-family: 'Poiret One', cursive;
+
+}
+
+h2 {
+    color: aqua;
+}
+
+
+
+
+
+
+footer {
+    background-image: url(bkg3.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;    
+    padding-top: 50px;
+    vertical-align: bottom;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    color: white;
+
+}
+
+
+
+
+
+
+@media all and (min-width:700px) and (max-width: 1000px) {
+    .art-l {
+        float: left;
+    }
+    .art-r {
+        float: right;
+    }
+    .content {
+        clear: both;
+    }
+}
+
+@media all and (min-width:1000px) {
+    .art-l {
+        float: left;
+    }
+    .art-r {
+        float: right;
+    }
+    footer {
+        clear: both;
+    }
+    div {
+padding-top: 30px;
+    padding-bottom: 30px;
+padding-left: 450px;
+    padding-right: 450px;
+   }
+}
